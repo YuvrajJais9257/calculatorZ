@@ -1,0 +1,97 @@
+body {
+    background-color: crimson; /* Change to your desired background color */
+  }
+  
+  .container-fluid {
+    margin-left: 100px;
+  }
+  
+  .calculator {
+    background-color:black; /* Change to your desired background color */
+    height: 380px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  
+  .screen {
+    width: 100%;
+    height: 65%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: silver; 
+    border: solid black 0.5px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  input[type="button"] {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #64278f;
+    color: white;
+    border: solid black 0.5px;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  input:active[type=button] {
+    background: silver;
+    -webkit-box-shadow: inset 0px 0px 5px grey;
+    -moz-box-shadow: inset 0px 0px 5px grey;
+    box-shadow: inset 0px 0px 5px grey;
+}
+  
+  .number-buttons input[type="button"] {
+    background-color: #4caf50; /* Change to your desired number buttons color */
+    color: #fff;
+  }
+  
+  .operator-buttons input[type="button"] {
+    background-color: #f44336; /* Change to your desired operator buttons color */
+    color: #fff;
+  }
+
+  .navbar {
+    background-color: transparent;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    color: #fff; /* Change to your desired navbar brand color */
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #fff; /* Change to your desired navbar link color */
+  }
+  
+  .navbar-toggler {
+    border-color: #fff; /* Change to your desired navbar toggler color */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='3' y1='12' x2='27' y2='12' stroke='%23fff' stroke-width='2'%3E%3C/line%3E%3Cline x1='3' y1='18' x2='27' y2='18' stroke='%23fff' stroke-width='2'%3E%3C/line%3E%3Cline x1='3' y1='24' x2='27' y2='24' stroke='%23fff' stroke-width='2'%3E%3C/line%3E%3C/svg%3E");
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler-icon:focus {
+    outline: none;
+  }
+  
+  .navbar-toggler:hover,
+  .navbar-toggler-icon:hover {
+    background-color: #555; /* Change to your desired navbar toggler hover color */
+  }
+  
+
