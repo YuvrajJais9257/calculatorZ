@@ -1,5 +1,5 @@
 body {
-    background-color: crimson; /* Change to your desired background color */
+    background-color: crimson; 
   }
   
   .container-fluid {
@@ -7,7 +7,7 @@ body {
   }
   
   .calculator {
-    background-color:black; /* Change to your desired background color */
+    background-color:black; 
     height: 380px;
     width: 400px;
     border-radius: 10px;
@@ -52,12 +52,12 @@ body {
 }
   
   .number-buttons input[type="button"] {
-    background-color: #4caf50; /* Change to your desired number buttons color */
+    background-color: #4caf50; 
     color: #fff;
   }
   
   .operator-buttons input[type="button"] {
-    background-color: #f44336; /* Change to your desired operator buttons color */
+    background-color: #f44336; 
     color: #fff;
   }
 
@@ -67,17 +67,17 @@ body {
   
   .navbar-brand {
     font-size: 24px;
-    color: #fff; /* Change to your desired navbar brand color */
+    color: #fff; 
   }
   
   .navbar-nav .nav-link {
     font-size: 18px;
     margin-right: 10px;
-    color: #fff; /* Change to your desired navbar link color */
+    color: #fff; 
   }
   
   .navbar-toggler {
-    border-color: #fff; /* Change to your desired navbar toggler color */
+    border-color: #fff; 
   }
   
   .navbar-toggler-icon {
@@ -91,7 +91,7 @@ body {
   
   .navbar-toggler:hover,
   .navbar-toggler-icon:hover {
-    background-color: #555; /* Change to your desired navbar toggler hover color */
+    background-color: #555; 
   }
   
 
